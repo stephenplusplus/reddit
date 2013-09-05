@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Chewy);
+
+$light: #fff;
+$sky: #66a7cc;
+$dark-sky: darken($sky, 20%);
+$light-sky: lighten($sky, 20%);
+$army: #226067;
+$dark-army: darken($army, 20%);
+$light-army: lighten($army, 20%);
+$pink: #e4b3e6;
+$dark-pink: darken($pink, 20%);
+$light-pink: lighten($pink, 20%);
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  overflow: hidden;
+}
+
+body {
+  position: relative;
+  padding: 8px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: 'Chewy';
+  text-shadow: -2px 0 1px $dark-sky;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+p {
+  margin-bottom: 8px;
+}
