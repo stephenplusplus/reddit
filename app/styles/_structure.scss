@@ -1,34 +1,41 @@
-$padding: 10px;
+$padding: 8px;
 
-body > * {
-  position: fixed;
-  left: 0;
-  right: 0;
-  padding: $padding;
-}
+body {
+  & > * {
+    position: fixed;
+    left: 0;
+    right: 0;
+  }
 
-body > header,
-body > footer {
-  color: $light;
-}
+  & > header,
+  & > footer {
+    z-index: 1;
+    color: $light;
+    padding: 0 $padding;
+  }
 
-body > header {
-  top: 0;
-  height: 40px;
-  background-color: $sky;
-  border-bottom: 5px solid $light-sky;
-}
+  & > header {
+    top: 0;
+    height: 35px;
+    background-color: $light-army;
+    border-bottom: 5px solid $army;
+  }
 
-body > div {
-  top: 40px;
-  bottom: 30px;
-  overflow: auto;
-}
+  & > div {
+    z-index: 0;
+    top: 35px;
+    bottom: 25px;
+    overflow: auto;
+    border-top: 1px solid $dark-army;
+    border-bottom: 1px solid $dark-army;
+    padding: $padding;
+  }
 
-body > footer {
-  bottom: 0;
-  height: 30px;
-  background-color: $sky;
-  color: #eee;
-  border-top: 2px solid $light;
+  & > footer {
+    bottom: 0;
+    height: 25px;
+    background-color: $light-army;
+    color: #eee;
+    border-top: 2px solid $army;
+  }
 }

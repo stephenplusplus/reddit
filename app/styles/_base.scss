@@ -1,4 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Chewy);
+@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
 
 $light: #fff;
 $sky: #66a7cc;
@@ -39,9 +41,9 @@ ul {
 }
 
 h1 {
-  font-size: 24px;
-  font-family: 'Chewy';
-  text-shadow: -2px 0 1px $dark-sky;
+  font-size: 28px;
+  font-family: 'Amatic SC', sans-serif;
+  text-shadow: 2px 1px 1px $dark-sky;
 }
 
 h2 {
